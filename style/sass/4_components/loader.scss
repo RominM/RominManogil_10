@@ -1,0 +1,52 @@
+
+#balls {
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 300px;
+   height: 300px;
+   border-radius: 50%;
+   .ball {
+      margin: 10px;
+      visibility: hidden;
+   }
+
+   #ball1 {
+      width: 25px;
+      height: 25px;
+      background-color: $mainColor;
+      border-radius: 50%;
+      animation: ball1 1.7s infinite ease;
+      animation-fill-mode: forwards 1s;
+      animation-iteration-count: 1.3;
+   }
+   
+   #ball2 {
+      width: 25px;
+      height: 25px;
+      background-color: $mainColor;
+      border-radius: 50%;
+      animation: ball1 1.7s infinite ease .05s;
+      animation-fill-mode: forwards 1s;
+      animation-iteration-count: 1.3;
+   }
+   
+   #ball3 {
+      width: 25px;
+      height: 25px;
+      background-color: $mainColor;
+      border-radius: 50%;
+      animation: ball1 1.7s infinite ease .1s;
+      animation-fill-mode: forwards 1s;
+      animation-iteration-count: 1.3;
+   }
+}
+
+.block-page {
+   animation: opacity 3s;
+   z-index: 5;
+}

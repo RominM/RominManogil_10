@@ -1,0 +1,29 @@
+.form-data {
+   display: flex;
+   flex-direction: column;
+}
+
+.form-data[data-error]::after {
+   content: attr(data-error);
+   display: block;
+   font-size: 0.7em;
+   color: #e54858;
+   margin: 0 auto 10px auto;
+   line-height: 0.7;
+   opacity: 0;
+   transition: 0.3s;
+}
+
+.form-data[data-error-visible="true"]::after {
+   opacity: 1;
+}
+
+.form-data[data-error-visible="true"] .text-control {
+   border: 2px solid #e54858;
+}
+
+input[data-error]::after {
+   content: attr(data-error);
+   font-size: 0.4em;
+   color: red;
+}

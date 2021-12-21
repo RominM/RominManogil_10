@@ -1,6 +1,7 @@
-.connected_page {
+.login-page {
    background-color: $mainColor;
    width: 100%;
+   font-family: $nunito;
    .imgLaH {
       text-align: center;
       padding-top: 10vh;
@@ -10,15 +11,17 @@
          max-width: 350px;
       }
    }
-   .connection {
+   .login-form {
       text-align: center;
-      border: solid;
+      border: solid $secondColor;
       border-radius: 5px;
       width: 70%;
       margin: auto;
       margin-top: 30vh;
       transform: translateY(-50%);
       padding: 40px;
+      background-color: rgb(240, 240, 240);
+      box-shadow: $secondColor 3px 3px 3px;
       form {
          display: flex;
          flex-direction: column;
@@ -28,8 +31,11 @@
             width: 75%;
             min-width: 200px;
             max-width: 475px;
-            margin: 25px auto;
+            margin: 15px auto;
             border: solid #000 2px;
+            background-color: transparent;
+            color: $secondColor;
+            font-weight: bold;
             border-top: transparent;
             border-right: transparent;
             border-radius: 5px;
@@ -44,7 +50,8 @@
          max-width: 350px;
          margin: 50px auto;
          border: solid #000;
-         background-color: transparent;
+         background-color: $secondColor;
+         color: #fff;
          border-radius: 5px;
       }
    }
