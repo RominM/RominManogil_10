@@ -1,12 +1,10 @@
-import { getAccount } from "../dashboard/dashboard.js"
+import { getConnected } from "./../dashboard/getConnected.js";
 
 export const loginForm = () => {
    const container = document.querySelector('.login-form');
 
-   // <input class="text-control" type="text" id="first" name="firstName" data-error="ERROR" /><br></br>
-
    const form = document.createElement('form');
-   form.setAttribute('action', './html/dashboard.html');
+   form.setAttribute('action', './html/dashboard.html?');
    form.setAttribute('methode','POST');
 
    const errorEmail = document.createElement('div');
@@ -115,7 +113,8 @@ const validForm = () => {
          }
 
          if (isValide == true) {
-            getAccount();
+            console.log('coucou');
+            getConnected();
             console.log(e.target.submit());
             e.target.submit();
          }
