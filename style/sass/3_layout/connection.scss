@@ -1,0 +1,51 @@
+.connected_page {
+   background-color: $mainColor;
+   width: 100%;
+   .imgLaH {
+      text-align: center;
+      padding-top: 10vh;
+      img {
+         margin-bottom: 50px;
+         min-width: 200px;
+         max-width: 350px;
+      }
+   }
+   .connection {
+      text-align: center;
+      border: solid;
+      border-radius: 5px;
+      width: 70%;
+      margin: auto;
+      margin-top: 30vh;
+      transform: translateY(-50%);
+      padding: 40px;
+      form {
+         display: flex;
+         flex-direction: column;
+         width: 75%;
+         margin: auto;
+         input {
+            width: 75%;
+            min-width: 200px;
+            max-width: 475px;
+            margin: 25px auto;
+            border: solid #000 2px;
+            border-top: transparent;
+            border-right: transparent;
+            border-radius: 5px;
+         }
+         .error {
+            border: solid red 2px;            
+         }
+      }
+      .btn {
+         width: 35%;
+         min-width: 120px;
+         max-width: 350px;
+         margin: 50px auto;
+         border: solid #000;
+         background-color: transparent;
+         border-radius: 5px;
+      }
+   }
+}

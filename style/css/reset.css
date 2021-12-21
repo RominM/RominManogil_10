@@ -37,6 +37,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+    height: auto;
 }
 
 ol, ul {
@@ -72,6 +73,11 @@ input[type=search] {
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
 }
 
 textarea {
