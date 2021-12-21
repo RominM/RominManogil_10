@@ -1,0 +1,20 @@
+// Sass root
+
+/**VARIABLES**/
+@import "./1_variables/typo.scss";
+@import "./1_variables/colors.scss";
+
+/**MIXINS**/
+@import "./2_utils/mix.scss";
+@import "./2_utils/keyFrames.scss";
+
+/**LAYOUT**/
+@import "./3_layout/header.scss";
+@import "./3_layout/main.scss";
+@import "./3_layout/article.scss";
+@import "./3_layout/footer.scss";
+
+/**COMPONENTS**/
+@import "./4_components/banner.scss";
+@import "./4_components/btn.scss";
+@import "./4_components/nav.scss";

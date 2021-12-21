@@ -1,0 +1,25 @@
+{
+  "name": "starterkit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./style/sass/master.scss:./style/css/style.css --style compressed",
+    "prefix": "postcss ./style/css/style.css -u autoprefixer -o ./style/css/stylePrefix.css -w",
+    "test": "jest --coverage --watch --noStackTrace --silent"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "sass": "^1.45.0"
+  },
+  "devDependencies": {
+    "jest": "^27.4.5",
+    "postcss": "^8.2.9",
+    "postcss-cli": "^8.3.1"
+  },
+  "browserslist": [
+    "last 30 version"
+  ]
+}
