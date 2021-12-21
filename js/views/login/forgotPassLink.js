@@ -7,11 +7,13 @@ export const forgotPassLink = () => {
 
    container.append(forgotLink)
 
+   /*get a new password to click on "forgot password" */
    getNewPassword();
 };
 
 const getNewPassword = () => {
-   
+
+   /* look of modal */
    const createModal = () => {
       const modal = document.createElement('div');
       modal.classList.add('modal-forgot-password')
@@ -29,6 +31,7 @@ const getNewPassword = () => {
          modal.append(span, input, submit);
       })();
 
+      /* after ask your email to send you another password */
       const infoByEmail = (() => {
          const cross = document.createElement('img');
          cross.classList.add('cross');
@@ -42,6 +45,7 @@ const getNewPassword = () => {
       });
    }
 
+   /* handle modal */
    const openModal = () => {
       const modal = document.querySelector('.modal-forgot-password');
       modal.style.display = 'block';
@@ -52,6 +56,7 @@ const getNewPassword = () => {
       modal.style.display = 'none';
    }
 
+   /* Event */
    const forgotLink = document.querySelector('.forgot-password');
    const cross = document.querySelector('.cross');
 
