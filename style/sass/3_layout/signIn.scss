@@ -1,0 +1,22 @@
+.signin {
+   position: absolute;
+   top: 25%;
+   left: 50%;
+   transform: translate(-50%,75%);
+   .arrow {
+      width: 30px;
+      margin: auto;
+      animation: bounce 2s infinite;
+         -webkit-animation: bounce 2s infinite;
+         -moz-animation: bounce 2s infinite;
+         -o-animation: bounce 2s infinite;
+      cursor: pointer
+   };
+   span {
+      color: #fff;
+      font-weight: bold;
+      font-size: 1.2em;
+      cursor: pointer
+   }
+}
+ 

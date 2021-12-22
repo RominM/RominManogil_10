@@ -5,6 +5,7 @@
    .imgLaH {
       text-align: center;
       padding-top: 10vh;
+      transition: 2s;
       img {
          margin-bottom: 50px;
          min-width: 200px;
@@ -41,6 +42,7 @@
             border-right: transparent;
             border-radius: 5px;
             box-shadow: 2px 2px 2px;
+            z-index: 15;
          }
       }
    }
