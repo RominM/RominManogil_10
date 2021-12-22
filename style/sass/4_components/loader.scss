@@ -18,7 +18,7 @@
    #ball1 {
       width: 25px;
       height: 25px;
-      background-color: $mainColor;
+      background-color: $color-1;
       border-radius: 50%;
       animation: ball1 1.7s infinite ease;
       animation-fill-mode: forwards 1s;
@@ -28,7 +28,7 @@
    #ball2 {
       width: 25px;
       height: 25px;
-      background-color: $mainColor;
+      background-color: $color-1;
       border-radius: 50%;
       animation: ball1 1.7s infinite ease .05s;
       animation-fill-mode: forwards 1s;
@@ -38,7 +38,7 @@
    #ball3 {
       width: 25px;
       height: 25px;
-      background-color: $mainColor;
+      background-color: $color-1;
       border-radius: 50%;
       animation: ball1 1.7s infinite ease .1s;
       animation-fill-mode: forwards 1s;

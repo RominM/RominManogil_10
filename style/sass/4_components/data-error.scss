@@ -7,7 +7,7 @@
    content: attr(data-error);
    display: block;
    font-size: 0.7em;
-   color: #e54858;
+   color: $color-1;
    margin: 0 auto 10px auto;
    line-height: 0.7;
    opacity: 0;
@@ -19,11 +19,11 @@
 }
 
 .form-data[data-error-visible="true"] .text-control {
-   border: 2px solid #e54858;
+   border: 2px solid $color-1;
 }
 
 input[data-error]::after {
    content: attr(data-error);
    font-size: 0.4em;
-   color: red;
+   color: $color-1;
 }

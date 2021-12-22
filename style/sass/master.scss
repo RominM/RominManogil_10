@@ -10,14 +10,10 @@
 
 /**LAYOUT**/
 @import "./3_layout/body.scss";
-@import "./3_layout/header.scss";
-@import "./3_layout/main.scss";
 @import "./3_layout/login.scss";
-@import "./3_layout/footer.scss";
+@import "./3_layout/modal-password.scss";
 
 /**COMPONENTS**/
 @import "./4_components/loader.scss";
 @import "./4_components/data-error.scss";
-@import "./4_components/banner.scss";
 @import "./4_components/btn.scss";
-@import "./4_components/nav.scss";

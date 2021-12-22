@@ -39,7 +39,7 @@ export const loginForm = () => {
 
    const btnSub = document.createElement('button');
    btnSub.type = 'submit';
-   btnSub.classList.add('btn');
+   btnSub.classList.add('btn-login');
    btnSub.innerHTML = 'Se connecter';
    
 
@@ -67,7 +67,7 @@ const validForm = () => {
       }
    };
 
-   const btnSub = document.querySelector('.btn');
+   const btnSub = document.querySelector('.btn-login');
    btnSub.addEventListener('click', (e) => {
 
       const checkEmail = () => {
@@ -91,10 +91,10 @@ const validForm = () => {
          if (inpPass.value.length <= 3) {
             e.preventDefault();
 
-            inpPass.parentNode.setAttribute('data-error-visible', true)
+            inpPass.parentNode.setAttribute('data-error-visible', true);
             state.password.status = false;
          } else {
-            inpPass.parentNode.setAttribute('data-error-visible', false)
+            inpPass.parentNode.setAttribute('data-error-visible', false);
             state.password.status = true;
          };
       };
